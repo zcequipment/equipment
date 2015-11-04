@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>商城后台管理系统</title>
+		<title>猪场设备后台管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
 		<link href="/equipment/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -66,7 +66,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							京东商城后台管理系统
+							猪场设备后台管理系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
@@ -175,20 +175,21 @@
 										员工列表
 									</a>
 								</li>
-
+                                <!--  
 								<li>
 									<a href="/equipment/admin.php/Users/index">
 										<i class="icon-double-angle-right"></i>
 										会员列表
 									</a>
 								</li>
+								-->
 							</ul>
 						</li>
 
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 商品管理 </span>
+								<span class="menu-text"> 设备管理 </span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
@@ -197,29 +198,30 @@
 								<li>
 									<a href="/equipment/admin.php/Goods/index">
 										<i class="icon-double-angle-right"></i>
-										商品管理
+										设备列表
 									</a>
 								</li>
 								<li>
 									<a href="/equipment/admin.php/Type/index">
 										<i class="icon-double-angle-right"></i>
-										商品类别
+										设备类别
 									</a>
 								</li>
 								<li>
 									<a href="/equipment/admin.php/Brands/index">
 										<i class="icon-double-angle-right"></i>
-										商品品牌
+										设备品牌
 									</a>
 								</li>
 								<li>
 									<a href="/equipment/admin.php/Attrvalue/index">
 										<i class="icon-double-angle-right"></i>
-										商品属性
+										设备属性
 									</a>
 								</li>
 							</ul>
 						</li>
+						<!-- 
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
@@ -276,10 +278,11 @@
 								</li>
 							</ul>
                         </li>
+                         -->
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 新闻管理 </span>
+								<span class="menu-text"> 消息公告</span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
@@ -305,7 +308,7 @@
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 商城设置 </span>
+								<span class="menu-text"> 猪场设置 </span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
@@ -321,7 +324,7 @@
 								<li>
 									<a href="/equipment/admin.php/market/index">
 										<i class="icon-double-angle-right"></i>
-										商城信息
+										猪场信息
 									</a>
 								</li>
 							</ul>
@@ -416,16 +419,14 @@
     <div class="col-xs-12"><h1>欢迎使用网站后台管理系统</h1></div>
     <div class="col-xs-12">
         <div>
-            <h2><a href="/equipment/admin.php/Admin"> 员工管理</a></h2>
+            <h2><a href="/equipment/admin.php/Admin"> 用户管理</a></h2>
         </div>
         <div>
-            <h2><a href="/equipment/admin.php/Goods"> 商品管理</a></h2>
+            <h2><a href="/equipment/admin.php/Goods"> 设备管理</a></h2>
         </div>
+       
         <div>
-            <h2><a href="/equipment/admin.php/Orders"> 订单管理</a></h2>
-        </div>
-        <div>
-            <h2><a href="/equipment/admin.php/News"> 新闻管理</a></h2>
+            <h2><a href="/equipment/admin.php/News"> 新闻消息</a></h2>
         </div>
     </div>
 </div>
